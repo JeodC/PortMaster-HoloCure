@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "name": "holocure.zip",
+  "items": [
+    "Holocure.sh",
+    "holocure"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Holocure",
+    "porter": [
+      "Jeod"
+    ],
+    "desc": "Play as your favorite Vtubers from Hololive! Fight, explore, and clear your way through armies of fans and save them from their mind-control in this unofficial free fan-game.",
+    "desc_md": null,
+    "inst": "Download the specified steam depot: `download_depot 2420510 2420511 2583401865065080709` and copy all the data to `ports/holocure/gamedata`.",
+    "inst_md": null,
+    "genres": [
+      "other"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": null,
+    "reqs": [
+	  "power"
+	],
+    "arch": [
+      "aarch64"
+    ]
+  }
+}
