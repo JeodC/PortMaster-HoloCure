@@ -23,7 +23,7 @@
     "exp": false,
     "runtime": null,
     "reqs": [
-	  "power"
+	  "ultra"
 	],
     "arch": [
       "aarch64"
