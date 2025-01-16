@@ -53,8 +53,8 @@ if [ -f "$GAMEDIR/patchlog.txt" ]; then
     $ESUDO ./libs/splash "splash.png" 2000
 fi
 
-# Disable touchscreen
-modprobe -r edt_ft5x06
+#Disable touchscreen
+echo 13-0038 > /sys/bus/i2c/drivers/edt_ft5x06/unbind
 
 # Run the game
 $GPTOKEYB "gmloadernext" -c "./holocure.gptk" &
@@ -65,4 +65,4 @@ pm_platform_helper "$GAMEDIR/gmloadernext"
 pm_finish
 
 # Re-enable touchscreen
-modprobe edt_ft5x06
+echo 13-0038 > /sys/bus/i2c/drivers/edt_ft5x06/bind
